@@ -1,0 +1,9 @@
+{
+  "commands": [
+    {
+      "action": "click",
+      "selector": "button.cc-dismiss:has-text('Got it!')",
+      "value": ""
+    }
+  ]
+}

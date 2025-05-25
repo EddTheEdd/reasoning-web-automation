@@ -1,0 +1,7 @@
+[
+  {
+    "action": "click",
+    "selector": "a[href='/schedules/Red/alerts']",
+    "success": true
+  }
+]

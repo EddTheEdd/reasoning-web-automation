@@ -1,0 +1,840 @@
+
+            You're a web automation assistant. Given:
+
+            TASK: Show me the scores for the 2019 super bowl
+            URL: https://www.nfl.com/international/
+            ACTIONS: [
+  {
+    "action": "click",
+    "selector": "a[href='/super-bowl/']",
+    "value": "",
+    "success": false,
+    "failure_reason": "Couldnt perform selector selection! If its a cookie proposal or an email list, perhaps its no longer on screen and you can continue with the main task."
+  },
+  {
+    "action": "click",
+    "selector": "a:has-text('Super Bowl')",
+    "value": "",
+    "success": false,
+    "failure_reason": "Couldnt perform selector selection! If its a cookie proposal or an email list, perhaps its no longer on screen and you can continue with the main task."
+  },
+  {
+    "action": "click",
+    "selector": "a[href='/super-bowl/']:has-text('Super Bowl')",
+    "value": "",
+    "success": false,
+    "failure_reason": "Couldnt perform selector selection! If its a cookie proposal or an email list, perhaps its no longer on screen and you can continue with the main task."
+  },
+  {
+    "action": "click",
+    "selector": "button.cc-dismiss:has-text('Got it!')",
+    "value": "",
+    "success": false,
+    "failure_reason": "Couldnt perform selector selection! If its a cookie proposal or an email list, perhaps its no longer on screen and you can continue with the main task."
+  },
+  {
+    "action": "click",
+    "selector": "button[aria-label='dismiss cookie message']",
+    "value": "",
+    "success": false,
+    "failure_reason": "Couldnt perform selector selection! If its a cookie proposal or an email list, perhaps its no longer on screen and you can continue with the main task."
+  },
+  {
+    "action": "click",
+    "selector": "a:has-text('Scores')",
+    "value": "",
+    "success": false,
+    "failure_reason": "Couldnt perform selector selection! If its a cookie proposal or an email list, perhaps its no longer on screen and you can continue with the main task."
+  },
+  {
+    "action": "click",
+    "selector": "button:has-text('Got it!')",
+    "value": "",
+    "success": false,
+    "failure_reason": "Couldnt perform selector selection! If its a cookie proposal or an email list, perhaps its no longer on screen and you can continue with the main task."
+  },
+  {
+    "action": "click",
+    "selector": "text=Scores",
+    "value": "",
+    "success": false,
+    "failure_reason": "Couldnt perform selector selection! If its a cookie proposal or an email list, perhaps its no longer on screen and you can continue with the main task."
+  }
+]
+            HTML: 
+(1)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/injuries/">Injuries</a>
+
+(2)
+<a class="rounded-sm text-ls-600 hover:bg-ls-100 active:bg-white focus:bg-white">NewsCowboys, Saints open voluntary offseason workout programs MondayCowboys, Saints open voluntary offseason workout programs Monday</a>
+
+(3)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="https://www.nfl.com/mundo/">En EspanolArrow Upright</a>
+
+(4)
+<a class="rounded-sm text-ls-600 hover:bg-ls-100 active:bg-white focus:bg-white">NewsQB Kenny Pickett plans to start for Browns: 'I'm not going there to hang out'Pickett aims to start in CLE: ‘Not going there to hang out’</a>
+
+(5)
+<section aria-labelledby="headline-replays-promo" class="@container/wrapper" data-testid="section" id="replays-promo">SUPER BOWL REPLAYSREPLAYSSee AllChevron RightKCPHIReplay</section>
+
+(6)
+<a aria-labelledby="https://www.nfl.com/videos/global-rise-of-flag-football" class="snap-start block size-full relative group/card !-o..." href="https://www.nfl.com/videos/global-rise-of-flag-football">0:30PlayVIDEOSGlobal Rise of Flag Football</a>
+
+(7)
+<input type="checkbox" name="ot-group-id-ISF2V2_1" id="ot-group-id-ISF2V2_1" role="switch" class="category-switch-handler" aria-labelledby="ot-header-id-ISF2V2_1"></input>
+
+(8)
+<a aria-labelledby="https://www.nfl.com/videos/favorite-jameis-winston-moment-gmfb" class="block size-full relative group/card !-outline-offs..." href="https://www.nfl.com/videos/favorite-jameis-winston-moment-gmfb">2:08PlayVIDEOSFavorite Jameis Winston moment | 'GMFB'</a>
+
+(9)
+<span class="group-data-[selected]:border-b-2 self-start group-data-[selected]:text-black">MY TEAM</span>
+
+(10)
+<button role="link" class="relative isolate inline-flex items-center justify-..." type="button">SHOP NOWArrow Upright</button>
+
+(11)
+<a class="snap-start block size-full relative group/card !-o...">King embracing another first in role with CHI</a>
+
+(12)
+<a class="group/link items-center body-2 lg:body-3 text-blac...">Photos</a>
+
+(13)
+<path class="selectCircle"></path>
+
+(14)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.vikings.com/"></a>
+
+(15)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/los-angeles-rams">Rams</a>
+
+(16)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/podcasts/">Podcasts</a>
+
+(17)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/denver-broncos">Broncos</a>
+
+(18)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="https://www.dazn.com/en-TV/home/2xyjgq7ffrrdck7yi3qc2ixbj">NFL Network</a>
+
+(19)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.giants.com/"></a>
+
+(20)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/playoffs/bracket/">Playoff Bracket</a>
+
+(21)
+<a class="snap-start block size-full relative group/card !-o...">NEWSJets, Browns, Jaguars to play in 2025 NFL London Games</a>
+
+(22)
+<a class="body-3 justify-center items-center cursor-pointer ..." href="/news">More NewsChevron Right</a>
+
+(23)
+<a class="snap-start block size-full relative group/card !-o...">Kevin Warren honored for uplifting women in football</a>
+
+(24)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/network/games/">NFL Network Games</a>
+
+(25)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/tampa-bay-buccaneers">Buccaneers</a>
+
+(26)
+<a class="snap-start block size-full relative group/card !-o...">NEWSColts announced as designated team for 2025 NFL Berlin Game</a>
+
+(27)
+<link></link>
+
+(28)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/carolina-panthers">Panthers</a>
+
+(29)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.colts.com/"></a>
+
+(30)
+<a class="snap-start block size-full relative group/card !-o...">How the Titans unveiled Oilers throwback uniforms</a>
+
+(31)
+<input type="checkbox" name="ot-group-id-C0004" id="ot-group-id-C0004" role="switch" class="category-switch-handler" aria-labelledby="ot-header-id-C0004"></input>
+
+(32)
+<a class="snap-start block size-full relative group/card !-o...">NEWSGlobal Markets Program expands: Bolts paired with Greece; UAE gets 3 teams</a>
+
+(33)
+<a class="snap-start block size-full relative group/card !-o...">Vikes equipment manager Dennis Ryan retiring after 50 years</a>
+
+(34)
+<button class="ot-link-btn category-vendors-list-handler" aria-label="IAB Vendor Details button opens Vendor List menu">List of IAB Vendors‎</button>
+
+(35)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/plus/replays/">Game Replays</a>
+
+(36)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/schedules/team-schedules/">Team Schedules</a>
+
+(37)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.titansonline.com/"></a>
+
+(38)
+<a class="rounded-sm text-ls-600 hover:bg-ls-100 active:bg-white focus:bg-white">NewsNFL draft prospect, former LSU wide receiver Kyren Lacy dead at 24Draft prospect, former LSU WR Kyren Lacy dead at 24</a>
+
+(39)
+<button aria-label="next" class="!-outline-offset-1 justify-center bg-ls-level-1 da..." type="button">Chevron Right</button>
+
+(40)
+<a class="group/link items-center body-2 lg:body-3 text-blac...">TicketsArrow Upright</a>
+
+(41)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/miami-dolphins">Dolphins</a>
+
+(42)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/videos/channel/game-highlights-vc/">Highlights</a>
+
+(43)
+<button class="ot-link-btn category-vendors-list-handler" aria-label="IAB Vendor Details button opens Vendor List menu">List of IAB Vendors‎</button>
+
+(44)
+<a class="snap-start block size-full relative group/card !-o...">Bills and the American Heart Association teaming up to save lives through CPR</a>
+
+(45)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="https://DAZN.com/nfl)">NFL Game Pass</a>
+
+(46)
+<button class="ot-link-btn category-vendors-list-handler" aria-label="IAB Vendor Details button opens Vendor List menu">List of IAB Vendors‎</button>
+
+(47)
+<input type="checkbox" name="switch" id="ot-sub-group-id-IAB2V2_11" role="switch" class="cookie-subgroup-handler" aria-label="Use limited data to select content"></input>
+
+(48)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.seahawks.com/"></a>
+
+(49)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.newyorkjets.com/"></a>
+
+(50)
+<button class="relative isolate inline-flex items-center justify-..." type="button">Sign Up</button>
+
+(51)
+<a class="group/link items-center body-2 lg:body-3 text-blac...">NFL Games</a>
+
+(52)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/chicago-bears">Bears</a>
+
+(53)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.atlantafalcons.com/"></a>
+
+(54)
+<button role="link" class="relative isolate inline-flex items-center justify-..." type="button">SubscribeArrow Upright</button>
+
+(55)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.miamidolphins.com/"></a>
+
+(56)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/cincinnati-bengals">Bengals</a>
+
+(57)
+<a class="body-3 text-white block border-b border-b-transpar...">Record & Fact Book</a>
+
+(58)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.bengals.com/"></a>
+
+(59)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/pittsburgh-steelers">Steelers</a>
+
+(60)
+<a class="display-6 items-center text-white italic">WATCH EVERY GAME WITH GAME PASS</a>
+
+(61)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.buccaneers.com/"></a>
+
+(62)
+<button class="justify-center items-start self-center border-none..." type="button" aria-expanded="false" aria-controls="headlessui-popover-panel-:rq:" id="headlessui-popover-button-:ro:">GAMESChevron Down</button>
+
+(63)
+<button class="justify-center items-center group display-5 italic..." id="headlessui-tabs-tab-:ra:" type="button" aria-selected="false" aria-controls="headlessui-tabs-panel-:re:">MY TEAM</button>
+
+(64)
+<button class="justify-center items-center group display-5 italic..." id="headlessui-tabs-tab-:r0:" type="button" aria-selected="true" aria-controls="headlessui-tabs-panel-:r4:">NEWS</button>
+
+(65)
+<a class="snap-start block size-full relative group/card !-o...">Packers, American Family Insurance donate new helmets to high school football teams</a>
+
+(66)
+<button role="link" class="relative isolate inline-flex items-center justify-..." type="button">EXPLORE</button>
+
+(67)
+<button class="justify-center items-start self-center border-none..." type="button" aria-expanded="false" aria-controls="headlessui-popover-panel-:r10:" id="headlessui-popover-button-:ru:">NEWSChevron Down</button>
+
+(68)
+<a class="group/link items-center body-2 text-black dark:text-white" href="/standings/playoff-picture">Playoff Picture</a>
+
+(69)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/new-orleans-saints">Saints</a>
+
+(70)
+<a class="group/link items-center body-2 text-black dark:text-white" href="/standings/">Standings</a>
+
+(71)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.chargers.com/"></a>
+
+(72)
+<a class="snap-start block size-full relative group/card !-o...">'Undrafted' horse owned by undrafted Jake Delhomme pulls big upset</a>
+
+(73)
+<input type="checkbox" name="switch" id="ot-sub-group-id-IAB2V2_7" role="switch" class="cookie-subgroup-handler" aria-label="Measure advertising performance"></input>
+
+(74)
+<section aria-labelledby="headline-homepage-from-the-clubs" data-testid="section" id="homepage-from-the-clubs">CLUBSChevron Left1 of 7Chevron Right'Undrafted' horse owned by undrafted Jake Delhomme pulls big upsetKevin Warren honored for uplifting women in footballEagles invite New Orleans attack survivor to Super BowlBears welcome Ben Johnson to ChicagoLions embark on #WeWantMore tourChicago launches 'Thank You Bears Fans' experienceCardinals Girls' Flag GOWTez Effect: The Montez Sweat EvolutionRoad to Canton: Julius PeppersChiefs, Jon Hamm reveal "Back-to-Back Greatness" campaignRoad to Canton: Steve McMichaelSeahawks spotlight female football playersKing embracing another first in role with CHILiving Within your Purpose: A Bijan Robinson storyBills and the American Heart Association teaming up to save lives through CPRPackers, American Family Insurance donate new helmets to high school football teamsVikes equipment manager Dennis Ryan retiring after 50 yearsHow the Titans unveiled Oilers throwback uniformsWhy Damar Hamlin is determined to make a comebackJustin Jefferson donates Microsoft Surface laptops to students at NAZ</section>
+
+(75)
+<section aria-labelledby="headline-" class="lg:hidden @container bg-white shadow-extended rounded-sm" data-testid="section">Headline Stack testNEWSMY TEAMNewsFilice mock 2.0: Jeanty goes top 5! Cowboys trade up for familiar type of playerFilice mock 2.0: Jeanty goes top 5! Cowboys trade upNewsCowboys, Saints open voluntary offseason workout programs MondayCowboys, Saints open voluntary offseason workout programs MondayNewsNFL draft prospect, former LSU wide receiver Kyren Lacy dead at 24Draft prospect, former LSU WR Kyren Lacy dead at 24NewsRoundup: Packers hosting free-agent LB; QB Sanders visiting RaidersRoundup: Pack hosting free-agent LB SimmonsNewsSeahawks GM: 'I'd be careful' when you hear it's not a great draft for QBsSEA GM: 'I'd be careful' when you hear it's not a great draft for QBsNewsQB Kenny Pickett plans to start for Browns: 'I'm not going there to hang out'Pickett aims to start in CLE: ‘Not going there to hang out’NewsBears, CB Kyler Gordon agree to terms on three-year, $40 million extensionBears, CB Gordon agree to 3-yr, $40M extensionNews9 prospect superpowers: Who has the best first step? Ball skills? Contact balance?9 prospect superpowers: Best first step? Top ball skills?NewsSaints' Carr dealing with shoulder injury; availability for 2025 in questionSaints' Carr dealing with shoulder injury; availability for '25 in questionDgx Pass Away2025 draft: Grades, pro comps, in-depth scouting reports for 425 prospects2025 draft: Grades, pro comps, in-depth scouting reports for 425 prospectsMore NewsChevron Right</section>
+
+(76)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/videos/channel/game-highlights-vc">Highlights</a>
+
+(77)
+<a class="body-3 text-white block border-b border-b-transpar...">NFL Auction</a>
+
+(78)
+<a class="group/link items-center body-2 lg:body-3 text-blac...">NFL RedZone</a>
+
+(79)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.houstontexans.com/"></a>
+
+(80)
+<a class="rounded-sm text-ls-600 hover:bg-ls-100 active:bg-white focus:bg-white">NewsRoundup: Packers hosting free-agent LB; QB Sanders visiting RaidersRoundup: Pack hosting free-agent LB Simmons</a>
+
+(81)
+<a class="body-3 font-bold items-center whitespace-nowrap" href="/plus/replays">See AllChevron Right</a>
+
+(82)
+<button class="justify-center items-center group display-5 italic..." id="headlessui-tabs-tab-:r8:" type="button" aria-selected="true" aria-controls="headlessui-tabs-panel-:rc:">NEWS</button>
+
+(83)
+<input type="checkbox" name="switch" id="ot-sub-group-id-IAB2V2_3" role="switch" class="cookie-subgroup-handler" aria-label="Create profiles for personalised advertising"></input>
+
+(84)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/ways-to-watch">Ways to Watch</a>
+
+(85)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/minnesota-vikings">Vikings</a>
+
+(86)
+<section aria-labelledby="headline-upcoming-nfl-com" data-testid="section" id="upcoming-nfl-com">UPCOMINGChevron Left1 of 6Chevron RightNEWS2025 NFL Draft: Dates, times, location, how to watch and moreNEWSOffseason workout dates for all 32 NFL clubs: April 7 is first day for 3 teamsNEWSOT7: Dates, times, locations, how to watch live games on NFL Network and NFL+NEWS2025 NFL Draft presented by Bud Light kicks off April 24 in Green BayNEWSLA council gives preliminary approval for flag football venue for '28 OlympicsNEWSGlobal Markets Program expands: Bolts paired with Greece; UAE gets 3 teamsNEWSWho should SB LIX champion Eagles face to kick off 2025 season?NEWSTeam-by-team opponents for every matchup in 2025 NFL seasonNEWSTop matchups for '25 International Games: Who should Chargers face in Brazil?NEWSNFL to return to São Paulo in Week 1 of 2025 season; Chargers designated teamNEWSDublin to host first regular-season NFL game in Ireland in '25; Steelers designated teamNEWSMelbourne to host NFL regular-season game in 2026; Rams designated teamNEWSHala Miami! Dolphins to host historic first-ever regular-season NFL game in SpainNEWSColts announced as designated team for 2025 NFL Berlin GameNEWSJets, Browns, Jaguars to play in 2025 NFL London GamesNEWSNFL owners approve Jaguars' 'stadium of the future' set to open in 20280:30PlayVIDEOSGlobal Rise of Flag Football</section>
+
+(87)
+<a class="snap-start block size-full relative group/card !-o...">NEWSWho should SB LIX champion Eagles face to kick off 2025 season?</a>
+
+(88)
+<div id="onetrust-button-group-parent" class="ot-sdk-columns has-reject-all-button ot-sdk-two">I AcceptReject AllShow Purposes</div>
+
+(89)
+<a class="snap-start block size-full relative group/card !-o...">NEWSNFL owners approve Jaguars' 'stadium of the future' set to open in 2028</a>
+
+(90)
+<input id="vendor-search-handler" type="text" name="vendor-search-handler" placeholder="Search…" aria-label="Cookie list search"></input>
+
+(91)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.steelers.com/"></a>
+
+(92)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/green-bay-packers">Packers</a>
+
+(93)
+<link href="//nflenterprises.tt.omtrdc.net"></link>
+
+(94)
+<a class="justify-center items-start self-center border-none...">WATCH REPLAYS</a>
+
+(95)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.chiefs.com/"></a>
+
+(96)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.packers.com/"></a>
+
+(97)
+<nav aria-label="Site" class="bg-ls-level-2 dark:bg-ds-level-2 sticky top-[--header-panel-top-hat-height]">NFL HomepageWATCHChevron DownPlayGame PassNFL Game PassHard KnocksNFL RedZoneNFL NetworkPlayVideoNFL GamesWays to WatchHighlightsGAMESChevron DownCalendarPlan AheadScheduleWays to WatchTeam SchedulesNFL Network GamesTicketsArrow UprightVIP ExperiencesArrow UprightDgx Possession HomeGame RecapScoresGame ReplaysHighlightsTrophyPlayoffsPlayoff PicturePlayoff BracketRoad to Super BowlPro Bowl GamesSuper BowlNEWSChevron DownNewsNews & UpdatesLatestInjuriesTransactionsPodcastsPhotosCommunityNewsEventsSuper BowlPro Bowl GamesCombineDraftNewsOffsite NewsFantasy NewsArrow UprightEn EspanolArrow UprightTEAMSChevron DownAll TeamsPlayersStandingsPlayoff PictureShopArrow UprightAFC EastBillsDolphinsPatriotsJetsAFC NorthRavensBengalsBrownsSteelersAFC SouthTexansColtsJaguarsTitansAFC WestBroncosChiefsRaidersChargersNFC EastCowboysGiantsEaglesCommandersNFC NorthBearsLionsPackersVikingsNFC SouthFalconsPanthersSaintsBuccaneersNFC WestCardinalsRams49ersSeahawksSTATSChevron DownCoachSeason StatsTeam StatsPlayer StatsCoachAdvanced StatsNext Gen StatsArrow UprightWATCH REPLAYSMOCK DRAFTSTicketsArrow UprightOn LocationArrow UprightSign InMenu</nav>
+
+(98)
+<a class="snap-start block size-full relative group/card !-o...">NEWSOT7: Dates, times, locations, how to watch live games on NFL Network and NFL+</a>
+
+(99)
+<a class="rounded-sm text-ls-600 hover:bg-ls-100 active:bg-white focus:bg-white">NewsFilice mock 2.0: Jeanty goes top 5! Cowboys trade up for familiar type of playerFilice mock 2.0: Jeanty goes top 5! Cowboys trade up</a>
+
+(100)
+<button class="ot-link-btn category-vendors-list-handler" aria-label="IAB Vendor Details button opens Vendor List menu">List of IAB Vendors‎</button>
+
+(101)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/stats/player-stats/">Player Stats</a>
+
+(102)
+<button class="ot-link-btn category-vendors-list-handler" aria-label="IAB Vendor Details button opens Vendor List menu">List of IAB Vendors‎</button>
+
+(103)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/arizona-cardinals">Cardinals</a>
+
+(104)
+<circle class="selectBackground"></circle>
+
+(105)
+<input type="checkbox" name="ot-group-id-ISF2V2_2" id="ot-group-id-ISF2V2_2" role="switch" class="category-switch-handler" aria-labelledby="ot-header-id-ISF2V2_2"></input>
+
+(106)
+<input id="select-all-vendor-leg-handler" type="checkbox"></input>
+
+(107)
+<button role="link" class="relative isolate inline-flex items-center justify-..." type="button">SHOP NOWArrow Upright</button>
+
+(108)
+<a class="snap-start block size-full relative group/card !-o...">NEWSTop matchups for '25 International Games: Who should Chargers face in Brazil?</a>
+
+(109)
+<a class="body-3 text-white block border-b border-b-transpar...">Preference Center</a>
+
+(110)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/buffalo-bills">Bills</a>
+
+(111)
+<link type="text/css"></link>
+
+(112)
+<a class="snap-start block size-full relative group/card !-o...">NEWSNFL to return to São Paulo in Week 1 of 2025 season; Chargers designated team</a>
+
+(113)
+<a class="snap-start block size-full relative group/card !-o...">Eagles invite New Orleans attack survivor to Super Bowl</a>
+
+(114)
+<a aria-labelledby="https://www.seahawks.com/community/future-of-football/flag-football/" class="snap-start block size-full relative group/card !-o..." href="https://www.seahawks.com/community/future-of-football/flag-football/">Seahawks spotlight female football players</a>
+
+(115)
+<button class="ot-link-btn category-vendors-list-handler" aria-label="IAB Vendor Details button opens Vendor List menu">List of IAB Vendors‎</button>
+
+(116)
+<a class="block size-full relative group/card !-outline-offs...">Watch all NFL content with NFL Game Pass!</a>
+
+(117)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="https://www.dazn.com/en-CA/show/Competition:4bdaw43oqozm4b2n8z2k8o52v">Hard Knocks</a>
+
+(118)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/san-francisco-49ers">49ers</a>
+
+(119)
+<a class="snap-start block size-full relative group/card !-o...">NEWSDublin to host first regular-season NFL game in Ireland in '25; Steelers designated team</a>
+
+(120)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.clevelandbrowns.com/"></a>
+
+(121)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/philadelphia-eagles">Eagles</a>
+
+(122)
+<a class="snap-start block size-full relative group/card !-o...">Justin Jefferson donates Microsoft Surface laptops to students at NAZ</a>
+
+(123)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.detroitlions.com/"></a>
+
+(124)
+<a class="body-3 text-white block border-b border-b-transpar..." href="https://operations.nfl.com/the-rules/nfl-rulebook/">Rule Book</a>
+
+(125)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/tennessee-titans">Titans</a>
+
+(126)
+<a class="bg-ls-level-2 rounded shadow-extended outline outline-1 outline-transparent hover:outline-ls-400" href="https://www.nfl.com/ways-to-watch/by-country">Ways to WatchYour personalized view of the NFL schedule.Chevron Right</a>
+
+(127)
+<div id="onetrust-pc-sdk" class="otPcCenter ot-hide ot-addtl-vendors" aria-label="Preference center" role="region">Your Opt Out Preference Signal is HonoredAbout Your PrivacyWe process your data to deliver content or advertisements and measure the delivery of such content or advertisements to extract insights about our website. We share this information with our partners on the basis of consent. You may exercise your right to consent, based on a specific purpose below or at a partner level in the link under each purpose. Some vendors may process your data based on their legitimate interests, which does not require your consent. You cannot object to tracking technologies placed to ensure security, prevent fraud, fix errors, or deliver and present advertising and content, and precise geolocation data and active scanning of device characteristics for identification may be used to support this purpose. This exception does not apply to targeted advertising. These choices will be signaled to our vendors participating in the Transparency and Consent Framework.Privacy PolicyAllow AllManage Consent PreferencesStrictly NecessaryAlways ActiveThese cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site might not work as a result.FunctionalFunctionalThese cookies enable the website to provide enhanced functionality and personalization. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.PerformancePerformanceThese cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.TargetingTargetingThese cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. If you do not allow these cookies, you will experience less targeted advertising.Personalised advertising and content, advertising and content measurement, audience research and services development814 partners can use this purposePersonalised advertising and content, advertising and content measurement, audience research and services developmentUse limited data to select advertising623 partners can use this purposeSwitch LabelAdvertising presented to you on this service can be based on limited data, such as the website or app you are using, your non-precise location, your device type or which content you are (or have been) interacting with (for example, to limit the number of times an ad is presented to you).View IllustrationsCreate profiles for personalised advertising532 partners can use this purposeSwitch LabelInformation about your activity on this service (such as forms you submit, content you look at) can be stored and combined with other information about you (for example, information from your previous activity on this service and other websites or apps) or similar users. This is then used to build or improve a profile about you (that might include possible interests and personal aspects). Your profile can be used (also later) to present advertising that appears more relevant based on your possible interests by this and other entities.View IllustrationsUse profiles to select personalised advertising529 partners can use this purposeSwitch LabelAdvertising presented to you on this service can be based on your advertising profiles, which can reflect your activity on this service or other websites or apps (like the forms you submit, content you look at), possible interests and personal aspects.View IllustrationsCreate profiles to personalise content235 partners can use this purposeSwitch LabelInformation about your activity on this service (for instance, forms you submit, non-advertising content you look at) can be stored and combined with other information about you (such as your previous activity on this service or other websites or apps) or similar users. This is then used to build or improve a profile about you (which might for example include possible interests and personal aspects). Your profile can be used (also later) to present content that appears more relevant based on your possible interests, such as by adapting the order in which content is shown to you, so that it is even easier for you to find content that matches your interests.View IllustrationsUse profiles to select personalised content209 partners can use this purposeSwitch LabelContent presented to you on this service can be based on your content personalisation profiles, which can reflect your activity on this or other services (for instance, the forms you submit, content you look at), possible interests and personal aspects. This can for example be used to adapt the order in which content is shown to you, so that it is even easier for you to find (non-advertising) content that matches your interests.View IllustrationsMeasure advertising performance694 partners can use this purposeSwitch LabelInformation regarding which advertising is presented to you and how you interact with it can be used to determine how well an advert has worked for you or other users and whether the goals of the advertising were reached. For instance, whether you saw an ad, whether you clicked on it, whether it led you to buy a product or visit a website, etc. This is very helpful to understand the relevance of advertising campaigns.View IllustrationsMeasure content performance344 partners can use this purposeSwitch LabelInformation regarding which content is presented to you and how you interact with it can be used to determine whether the (non-advertising) content e.g. reached its intended audience and matched your interests. For instance, whether you read an article, watch a video, listen to a podcast or look at a product description, how long you spent on this service and the web pages you visit etc. This is very helpful to understand the relevance of (non-advertising) content that is shown to you.View IllustrationsUnderstand audiences through statistics or combinations of data from different sources452 partners can use this purposeSwitch LabelReports can be generated based on the combination of data sets (like user profiles, statistics, market research, analytics data) regarding your interactions and those of other users with advertising or (non-advertising) content to identify common characteristics (for instance, to determine which target audiences are more receptive to an ad campaign or to certain contents).View IllustrationsDevelop and improve services508 partners can use this purposeSwitch LabelInformation about your activity on this service, such as your interaction with ads or content, can be very helpful to improve products and services and to build new products and services based on user interactions, the type of audience, etc. This specific purpose does not include the development or improvement of user profiles and identifiers.View IllustrationsUse limited data to select content130 partners can use this purposeSwitch LabelContent presented to you on this service can be based on limited data, such as the website or app you are using, your non-precise location, your device type, or which content you are (or have been) interacting with (for example, to limit the number of times a video or an article is presented to you).View IllustrationsList of IAB Vendors‎Store and/or access information on a device716 partners can use this purposeStore and/or access information on a deviceCookies, device or similar online identifiers (e.g. login-based identifiers, randomly assigned identifiers, network based identifiers) together with other information (e.g. browser type and information, language, screen size, supported technologies etc.) can be stored or read on your device to recognise it each time it connects to an app or to a website, for one or several of the purposes presented here.List of IAB Vendors‎| View IllustrationsUse precise geolocation data269 partners can use this special featureUse precise geolocation dataWith your acceptance, your precise location (within a radius of less than 500 metres) may be used in support of the purposes explained in this notice.List of IAB Vendors‎Actively scan device characteristics for identification139 partners can use this special featureActively scan device characteristics for identificationWith your acceptance, certain characteristics specific to your device might be requested and used to distinguish it from other devices (such as the installed fonts or plugins, the resolution of your screen) in support of the purposes explained in this notice.List of IAB Vendors‎Ensure security, prevent and detect fraud, and fix errors547 partners can use this special purposeAlways ActiveYour data can be used to monitor for and prevent unusual and possibly fraudulent activity (for example, regarding advertising, ad clicks by bots), and ensure systems and processes work properly and securely. It can also be used to correct any problems you, the publisher or the advertiser may encounter in the delivery of content and ads and in your interaction with them.List of IAB Vendors‎| View IllustrationsDeliver and present advertising and content548 partners can use this special purposeAlways ActiveCertain information (like an IP address or device capabilities) is used to ensure the technical compatibility of the content or advertising, and to facilitate the transmission of the content or ad to your device.List of IAB Vendors‎| View IllustrationsMatch and combine data from other data sources388 partners can use this featureAlways ActiveInformation about your activity on this service may be matched and combined with other information relating to you and originating from various sources (for instance your activity on a separate online service, your use of a loyalty card in-store, or your answers to a survey), in support of the purposes explained in this notice.List of IAB Vendors‎Link different devices344 partners can use this featureAlways ActiveIn support of the purposes explained in this notice, your device might be considered as likely linked to other devices that belong to you or your household (for instance because you are logged in to the same service on both your phone and your computer, or because you may use the same Internet connection on both devices).List of IAB Vendors‎Identify devices based on information transmitted automatically520 partners can use this featureAlways ActiveYour device might be distinguished from other devices based on information it automatically sends when accessing the Internet (for instance, the IP address of your Internet connection or the type of browser you are using) in support of the purposes exposed in this notice.List of IAB Vendors‎Save and communicate privacy choices371 partners can use this special purposeAlways ActiveThe choices you make regarding the purposes and entities listed in this notice are saved and made available to those entities in the form of digital signals (such as a string of characters). This is necessary in order to enable both this service and those entities to respect such choices.List of IAB Vendors‎| View IllustrationsBack ButtonCookie ListSearch IconFilter IconClearcheckbox labellabelApplyCancelConsentLeg.Interestcheckbox labellabelcheckbox labellabelcheckbox labellabelReject AllConfirm My Choices</div>
+
+(128)
+<a class="justify-center items-start self-center border-none..." href="/news/series/mock-draft-article-news">MOCK DRAFTS</a>
+
+(129)
+<a class="snap-start block size-full relative group/card !-o...">NEWS2025 NFL Draft: Dates, times, location, how to watch and more</a>
+
+(130)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.denverbroncos.com/"></a>
+
+(131)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.49ers.com/"></a>
+
+(132)
+<button class="justify-center items-start self-center border-none..." type="button" aria-expanded="false" aria-controls="headlessui-popover-panel-:r1c:" id="headlessui-popover-button-:r1a:">STATSChevron Down</button>
+
+(133)
+<a class="group/link items-center body-2 lg:body-3 text-blac...">VIP ExperiencesArrow Upright</a>
+
+(134)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/dallas-cowboys">Cowboys</a>
+
+(135)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/ways-to-watch/by-week/">Ways to Watch</a>
+
+(136)
+<div role="dialog" aria-label="We Care About Your Privacy">We Care About Your PrivacyWe and our882partners store and access personal data, like browsing data or unique identifiers, on your device. Selecting I Accept enables tracking technologies to support the purposes shown under we and our partners process data to provide. Selecting Reject All or withdrawing your consent will disable them. If trackers are disabled, some content and ads you see may not be as relevant to you. You can resurface this menu to change your choices or withdraw consent at any time by clicking the Manage Preferences link on the bottom of the webpage . Your choices will have effect within our Website. For more details, refer to our Privacy Policy.We and our partners process data to provide:Use precise geolocation data. Actively scan device characteristics for identification. Store and/or access information on a device. Personalised advertising and content, advertising and content measurement, audience research and services development.List of Partners (vendors)I AcceptReject AllShow Purposes</div>
+
+(137)
+<section aria-labelledby="headline-" class="max-lg:hidden @container bg-white shadow-extended rounded-sm" data-testid="section">Headline Stack testNEWSMY TEAMNewsFilice mock 2.0: Jeanty goes top 5! Cowboys trade up for familiar type of playerFilice mock 2.0: Jeanty goes top 5! Cowboys trade upNewsCowboys, Saints open voluntary offseason workout programs MondayCowboys, Saints open voluntary offseason workout programs MondayNewsNFL draft prospect, former LSU wide receiver Kyren Lacy dead at 24Draft prospect, former LSU WR Kyren Lacy dead at 24NewsRoundup: Packers hosting free-agent LB; QB Sanders visiting RaidersRoundup: Pack hosting free-agent LB SimmonsNewsSeahawks GM: 'I'd be careful' when you hear it's not a great draft for QBsSEA GM: 'I'd be careful' when you hear it's not a great draft for QBsNewsQB Kenny Pickett plans to start for Browns: 'I'm not going there to hang out'Pickett aims to start in CLE: ‘Not going there to hang out’NewsBears, CB Kyler Gordon agree to terms on three-year, $40 million extensionBears, CB Gordon agree to 3-yr, $40M extensionNews9 prospect superpowers: Who has the best first step? Ball skills? Contact balance?9 prospect superpowers: Best first step? Top ball skills?NewsSaints' Carr dealing with shoulder injury; availability for 2025 in questionSaints' Carr dealing with shoulder injury; availability for '25 in questionDgx Pass Away2025 draft: Grades, pro comps, in-depth scouting reports for 425 prospects2025 draft: Grades, pro comps, in-depth scouting reports for 425 prospectsMore NewsChevron Right</section>
+
+(138)
+<a class="rounded-sm text-ls-600 hover:bg-ls-100 active:bg-white focus:bg-white">NewsSaints' Carr dealing with shoulder injury; availability for 2025 in questionSaints' Carr dealing with shoulder injury; availability for '25 in question</a>
+
+(139)
+<a class="body-3 text-white block border-b border-b-transpar...">Your Privacy Choices</a>
+
+(140)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/community/">Community</a>
+
+(141)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/seattle-seahawks">Seahawks</a>
+
+(142)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.therams.com/"></a>
+
+(143)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.panthers.com/"></a>
+
+(144)
+<a aria-label="Kansas City Chiefs versus Philadelphia Eagles replay" class="@container/card rounded overflow-hidden grid grid-...">KCPHIReplay</a>
+
+(145)
+<a aria-labelledby="https://www.chiefs.com/super-bowl-lviii-ring/" class="snap-start block size-full relative group/card !-o..." href="https://www.chiefs.com/super-bowl-lviii-ring/">Chiefs, Jon Hamm reveal "Back-to-Back Greatness" campaign</a>
+
+(146)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/kansas-city-chiefs">Chiefs</a>
+
+(147)
+<section aria-labelledby="headline-undefined" data-testid="section">Ways to WatchYour personalized view of the NFL schedule.Chevron Right</section>
+
+(148)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.patriots.com/"></a>
+
+(149)
+<section aria-labelledby="headline-NFL Event Right Rail Promo" data-testid="section" id="NFL Event Right Rail Promo">Just Announced: NFL’s 2024 International Fan of the Year NomineesMeet All-32</section>
+
+(150)
+<input type="checkbox" name="ot-group-id-C0002" id="ot-group-id-C0002" role="switch" class="category-switch-handler" aria-labelledby="ot-header-id-C0002"></input>
+
+(151)
+<div id="headlessui-tabs-panel-:r4:" role="tabpanel" aria-labelledby="headlessui-tabs-tab-:r0:">NewsFilice mock 2.0: Jeanty goes top 5! Cowboys trade up for familiar type of playerFilice mock 2.0: Jeanty goes top 5! Cowboys trade upNewsCowboys, Saints open voluntary offseason workout programs MondayCowboys, Saints open voluntary offseason workout programs MondayNewsNFL draft prospect, former LSU wide receiver Kyren Lacy dead at 24Draft prospect, former LSU WR Kyren Lacy dead at 24NewsRoundup: Packers hosting free-agent LB; QB Sanders visiting RaidersRoundup: Pack hosting free-agent LB SimmonsNewsSeahawks GM: 'I'd be careful' when you hear it's not a great draft for QBsSEA GM: 'I'd be careful' when you hear it's not a great draft for QBsNewsQB Kenny Pickett plans to start for Browns: 'I'm not going there to hang out'Pickett aims to start in CLE: ‘Not going there to hang out’NewsBears, CB Kyler Gordon agree to terms on three-year, $40 million extensionBears, CB Gordon agree to 3-yr, $40M extensionNews9 prospect superpowers: Who has the best first step? Ball skills? Contact balance?9 prospect superpowers: Best first step? Top ball skills?NewsSaints' Carr dealing with shoulder injury; availability for 2025 in questionSaints' Carr dealing with shoulder injury; availability for '25 in questionDgx Pass Away2025 draft: Grades, pro comps, in-depth scouting reports for 425 prospects2025 draft: Grades, pro comps, in-depth scouting reports for 425 prospectsMore NewsChevron Right</div>
+
+(152)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.jaguars.com/"></a>
+
+(153)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/stats/team-stats/">Team Stats</a>
+
+(154)
+<a class="snap-start block size-full relative group/card !-o...">Road to Canton: Julius Peppers</a>
+
+(155)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.dallascowboys.com/"></a>
+
+(156)
+<button class="ot-link-btn category-vendors-list-handler" aria-label="IAB Vendor Details button opens Vendor List menu">List of IAB Vendors‎</button>
+
+(157)
+<a class="snap-start block size-full relative group/card !-o...">Living Within your Purpose: A Bijan Robinson story</a>
+
+(158)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.baltimoreravens.com/"></a>
+
+(159)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/atlanta-falcons">Falcons</a>
+
+(160)
+<input type="checkbox" name="switch" id="ot-sub-group-id-IAB2V2_4" role="switch" class="cookie-subgroup-handler" aria-label="Use profiles to select personalised advertising"></input>
+
+(161)
+<a class="snap-start block size-full relative group/card !-o...">Bears welcome Ben Johnson to Chicago</a>
+
+(162)
+<input type="checkbox" class="category-filter-handler"></input>
+
+(163)
+<a class="group/link items-center body-2 lg:body-3 text-blac...">Latest</a>
+
+(164)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="https://www.nfl.com/news/series/fantasy">Fantasy NewsArrow Upright</a>
+
+(165)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.buffalobills.com/"></a>
+
+(166)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/los-angeles-chargers">Chargers</a>
+
+(167)
+<input type="checkbox" name="ot-group-id-C0003" id="ot-group-id-C0003" role="switch" class="category-switch-handler" aria-labelledby="ot-header-id-C0003"></input>
+
+(168)
+<a class="block size-full relative group/card !-outline-offs...">NEWSCB Patrick Peterson to retire as member of Cardinals after 13 NFL seasons</a>
+
+(169)
+<circle class="selectedBackground"></circle>
+
+(170)
+<a aria-label="Facebook" class="cursor-pointer rounded-sm hover:outline hover:outline-1 hover:outline-white" href="https://www.facebook.com/NFL/"></a>
+
+(171)
+<a class="snap-start block size-full relative group/card !-o...">Tez Effect: The Montez Sweat Evolution</a>
+
+(172)
+<link type="font/woff"></link>
+
+(173)
+<button class="justify-center items-start self-center border-none..." type="button" aria-expanded="false" aria-controls="headlessui-popover-panel-:rk:" id="headlessui-popover-button-:ri:">WATCHChevron Down</button>
+
+(174)
+<span class="group-data-[selected]:border-b-2 self-start group-data-[selected]:text-black">NEWS</span>
+
+(175)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/draft">Draft</a>
+
+(176)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/detroit-lions">Lions</a>
+
+(177)
+<a aria-labelledby="https://thankyoufans.chicagobears.com/" class="snap-start block size-full relative group/card !-o..." href="https://thankyoufans.chicagobears.com/">Chicago launches 'Thank You Bears Fans' experience</a>
+
+(178)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.chicagobears.com/"></a>
+
+(179)
+<a class="snap-start block size-full relative group/card !-o...">NEWSMelbourne to host NFL regular-season game in 2026; Rams designated team</a>
+
+(180)
+<a class="snap-start block size-full relative group/card !-o...">Why Damar Hamlin is determined to make a comeback</a>
+
+(181)
+<a class="snap-start block size-full relative group/card !-o...">NEWSHala Miami! Dolphins to host historic first-ever regular-season NFL game in Spain</a>
+
+(182)
+<a class="snap-start block size-full relative group/card !-o...">NEWSTeam-by-team opponents for every matchup in 2025 NFL season</a>
+
+(183)
+<link href="//securepubads.g.doubleclick.net"></link>
+
+(184)
+<a id="c441740a-4164-4107-9c2b-ed1d480de9fb" class="rounded-sm text-ls-600 hover:bg-ls-100 active:bg-white focus:bg-white">News9 prospect superpowers: Who has the best first step? Ball skills? Contact balance?9 prospect superpowers: Best first step? Top ball skills?</a>
+
+(185)
+<a class="snap-start block size-full relative group/card !-o...">Road to Canton: Steve McMichael</a>
+
+(186)
+<div role="dialog" aria-label="About Your Privacy">Your Opt Out Preference Signal is HonoredAbout Your PrivacyWe process your data to deliver content or advertisements and measure the delivery of such content or advertisements to extract insights about our website. We share this information with our partners on the basis of consent. You may exercise your right to consent, based on a specific purpose below or at a partner level in the link under each purpose. Some vendors may process your data based on their legitimate interests, which does not require your consent. You cannot object to tracking technologies placed to ensure security, prevent fraud, fix errors, or deliver and present advertising and content, and precise geolocation data and active scanning of device characteristics for identification may be used to support this purpose. This exception does not apply to targeted advertising. These choices will be signaled to our vendors participating in the Transparency and Consent Framework.Privacy PolicyAllow AllManage Consent PreferencesStrictly NecessaryAlways ActiveThese cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site might not work as a result.FunctionalFunctionalThese cookies enable the website to provide enhanced functionality and personalization. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly.PerformancePerformanceThese cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance.TargetingTargetingThese cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. If you do not allow these cookies, you will experience less targeted advertising.Personalised advertising and content, advertising and content measurement, audience research and services development814 partners can use this purposePersonalised advertising and content, advertising and content measurement, audience research and services developmentUse limited data to select advertising623 partners can use this purposeSwitch LabelAdvertising presented to you on this service can be based on limited data, such as the website or app you are using, your non-precise location, your device type or which content you are (or have been) interacting with (for example, to limit the number of times an ad is presented to you).View IllustrationsCreate profiles for personalised advertising532 partners can use this purposeSwitch LabelInformation about your activity on this service (such as forms you submit, content you look at) can be stored and combined with other information about you (for example, information from your previous activity on this service and other websites or apps) or similar users. This is then used to build or improve a profile about you (that might include possible interests and personal aspects). Your profile can be used (also later) to present advertising that appears more relevant based on your possible interests by this and other entities.View IllustrationsUse profiles to select personalised advertising529 partners can use this purposeSwitch LabelAdvertising presented to you on this service can be based on your advertising profiles, which can reflect your activity on this service or other websites or apps (like the forms you submit, content you look at), possible interests and personal aspects.View IllustrationsCreate profiles to personalise content235 partners can use this purposeSwitch LabelInformation about your activity on this service (for instance, forms you submit, non-advertising content you look at) can be stored and combined with other information about you (such as your previous activity on this service or other websites or apps) or similar users. This is then used to build or improve a profile about you (which might for example include possible interests and personal aspects). Your profile can be used (also later) to present content that appears more relevant based on your possible interests, such as by adapting the order in which content is shown to you, so that it is even easier for you to find content that matches your interests.View IllustrationsUse profiles to select personalised content209 partners can use this purposeSwitch LabelContent presented to you on this service can be based on your content personalisation profiles, which can reflect your activity on this or other services (for instance, the forms you submit, content you look at), possible interests and personal aspects. This can for example be used to adapt the order in which content is shown to you, so that it is even easier for you to find (non-advertising) content that matches your interests.View IllustrationsMeasure advertising performance694 partners can use this purposeSwitch LabelInformation regarding which advertising is presented to you and how you interact with it can be used to determine how well an advert has worked for you or other users and whether the goals of the advertising were reached. For instance, whether you saw an ad, whether you clicked on it, whether it led you to buy a product or visit a website, etc. This is very helpful to understand the relevance of advertising campaigns.View IllustrationsMeasure content performance344 partners can use this purposeSwitch LabelInformation regarding which content is presented to you and how you interact with it can be used to determine whether the (non-advertising) content e.g. reached its intended audience and matched your interests. For instance, whether you read an article, watch a video, listen to a podcast or look at a product description, how long you spent on this service and the web pages you visit etc. This is very helpful to understand the relevance of (non-advertising) content that is shown to you.View IllustrationsUnderstand audiences through statistics or combinations of data from different sources452 partners can use this purposeSwitch LabelReports can be generated based on the combination of data sets (like user profiles, statistics, market research, analytics data) regarding your interactions and those of other users with advertising or (non-advertising) content to identify common characteristics (for instance, to determine which target audiences are more receptive to an ad campaign or to certain contents).View IllustrationsDevelop and improve services508 partners can use this purposeSwitch LabelInformation about your activity on this service, such as your interaction with ads or content, can be very helpful to improve products and services and to build new products and services based on user interactions, the type of audience, etc. This specific purpose does not include the development or improvement of user profiles and identifiers.View IllustrationsUse limited data to select content130 partners can use this purposeSwitch LabelContent presented to you on this service can be based on limited data, such as the website or app you are using, your non-precise location, your device type, or which content you are (or have been) interacting with (for example, to limit the number of times a video or an article is presented to you).View IllustrationsList of IAB Vendors‎Store and/or access information on a device716 partners can use this purposeStore and/or access information on a deviceCookies, device or similar online identifiers (e.g. login-based identifiers, randomly assigned identifiers, network based identifiers) together with other information (e.g. browser type and information, language, screen size, supported technologies etc.) can be stored or read on your device to recognise it each time it connects to an app or to a website, for one or several of the purposes presented here.List of IAB Vendors‎| View IllustrationsUse precise geolocation data269 partners can use this special featureUse precise geolocation dataWith your acceptance, your precise location (within a radius of less than 500 metres) may be used in support of the purposes explained in this notice.List of IAB Vendors‎Actively scan device characteristics for identification139 partners can use this special featureActively scan device characteristics for identificationWith your acceptance, certain characteristics specific to your device might be requested and used to distinguish it from other devices (such as the installed fonts or plugins, the resolution of your screen) in support of the purposes explained in this notice.List of IAB Vendors‎Ensure security, prevent and detect fraud, and fix errors547 partners can use this special purposeAlways ActiveYour data can be used to monitor for and prevent unusual and possibly fraudulent activity (for example, regarding advertising, ad clicks by bots), and ensure systems and processes work properly and securely. It can also be used to correct any problems you, the publisher or the advertiser may encounter in the delivery of content and ads and in your interaction with them.List of IAB Vendors‎| View IllustrationsDeliver and present advertising and content548 partners can use this special purposeAlways ActiveCertain information (like an IP address or device capabilities) is used to ensure the technical compatibility of the content or advertising, and to facilitate the transmission of the content or ad to your device.List of IAB Vendors‎| View IllustrationsMatch and combine data from other data sources388 partners can use this featureAlways ActiveInformation about your activity on this service may be matched and combined with other information relating to you and originating from various sources (for instance your activity on a separate online service, your use of a loyalty card in-store, or your answers to a survey), in support of the purposes explained in this notice.List of IAB Vendors‎Link different devices344 partners can use this featureAlways ActiveIn support of the purposes explained in this notice, your device might be considered as likely linked to other devices that belong to you or your household (for instance because you are logged in to the same service on both your phone and your computer, or because you may use the same Internet connection on both devices).List of IAB Vendors‎Identify devices based on information transmitted automatically520 partners can use this featureAlways ActiveYour device might be distinguished from other devices based on information it automatically sends when accessing the Internet (for instance, the IP address of your Internet connection or the type of browser you are using) in support of the purposes exposed in this notice.List of IAB Vendors‎Save and communicate privacy choices371 partners can use this special purposeAlways ActiveThe choices you make regarding the purposes and entities listed in this notice are saved and made available to those entities in the form of digital signals (such as a string of characters). This is necessary in order to enable both this service and those entities to respect such choices.List of IAB Vendors‎| View IllustrationsBack ButtonCookie ListSearch IconFilter IconClearcheckbox labellabelApplyCancelConsentLeg.Interestcheckbox labellabelcheckbox labellabelcheckbox labellabelReject AllConfirm My Choices</div>
+
+(187)
+<a class="snap-start block size-full relative group/card !-o...">NEWSOffseason workout dates for all 32 NFL clubs: April 7 is first day for 3 teams</a>
+
+(188)
+<input type="checkbox" name="ot-group-id-IAB2V2_1" id="ot-group-id-IAB2V2_1" role="switch" class="category-switch-handler" aria-labelledby="ot-header-id-IAB2V2_1"></input>
+
+(189)
+<path class="selectedFlag"></path>
+
+(190)
+<a class="group isolate relative items-center justify-center..." href="https://www.dazn.com/NFL">KCKansas City Chiefs2222 pointsSUPER BOWLFINALWinner Indicator4040 pointsPHIPhiladelphia Eagles</a>
+
+(191)
+<a class="items-start rounded-sm self-center font-bold text-ls-600 dark:text-ds-600">TicketsArrow Upright</a>
+
+(192)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.raiders.com/"></a>
+
+(193)
+<input id="select-all-hosts-groups-handler" type="checkbox"></input>
+
+(194)
+<a class="group/link items-center body-2 text-black dark:text-white">All Teams</a>
+
+(195)
+<a class="snap-start block size-full relative group/card !-o...">NEWSLA council gives preliminary approval for flag football venue for '28 Olympics</a>
+
+(196)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/super-bowl/">Super Bowl</a>
+
+(197)
+<input type="checkbox" name="switch" id="ot-sub-group-id-IAB2V2_6" role="switch" class="cookie-subgroup-handler" aria-label="Use profiles to select personalised content"></input>
+
+(198)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.philadelphiaeagles.com/"></a>
+
+(199)
+<a class="items-start rounded-sm self-center font-bold text-ls-600 dark:text-ds-600">On LocationArrow Upright</a>
+
+(200)
+<input type="checkbox" name="switch" id="ot-sub-group-id-IAB2V2_8" role="switch" class="cookie-subgroup-handler" aria-label="Measure content performance"></input>
+
+(201)
+<input id="select-all-vendor-groups-handler" type="checkbox"></input>
+
+(202)
+<button class="ot-link-btn category-vendors-list-handler" aria-label="IAB Vendor Details button opens Vendor List menu">List of IAB Vendors‎</button>
+
+(203)
+<a class="group/link items-center body-2 text-black dark:text-white" href="https://www.nflshop.com/?_s=bm-nflcom-globalnav-shop-2022">ShopArrow Upright</a>
+
+(204)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/new-york-giants">Giants</a>
+
+(205)
+<a class="snap-start block size-full relative group/card !-o...">NEWS2025 NFL Draft presented by Bud Light kicks off April 24 in Green Bay</a>
+
+(206)
+<div id="onetrust-banner-sdk" class="otFlat bottom vertical-align-content ot-buttons-fw" role="region" aria-label="Cookie banner">We Care About Your PrivacyWe and our882partners store and access personal data, like browsing data or unique identifiers, on your device. Selecting I Accept enables tracking technologies to support the purposes shown under we and our partners process data to provide. Selecting Reject All or withdrawing your consent will disable them. If trackers are disabled, some content and ads you see may not be as relevant to you. You can resurface this menu to change your choices or withdraw consent at any time by clicking the Manage Preferences link on the bottom of the webpage . Your choices will have effect within our Website. For more details, refer to our Privacy Policy.We and our partners process data to provide:Use precise geolocation data. Actively scan device characteristics for identification. Store and/or access information on a device. Personalised advertising and content, advertising and content measurement, audience research and services development.List of Partners (vendors)I AcceptReject AllShow Purposes</div>
+
+(207)
+<a aria-labelledby="https://x.com/Lions/status/1876363275656663344" class="snap-start block size-full relative group/card !-o..." href="https://x.com/Lions/status/1876363275656663344">Lions embark on #WeWantMore tour</a>
+
+(208)
+<button aria-label="previous" class="!-outline-offset-1 justify-center bg-ls-level-1 da..." type="button">Chevron Left</button>
+
+(209)
+<button class="w-full relative isolate inline-flex items-center j..." type="button">Sign In</button>
+
+(210)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/combine">Combine</a>
+
+(211)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/houston-texans">Texans</a>
+
+(212)
+<button aria-label="dismiss cookie message" class="cc-dismiss d3-o-cookie-btn d3-o-cookie-btn--dismiss">Got it!</button>
+
+(213)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/new-england-patriots">Patriots</a>
+
+(214)
+<button class="justify-center items-start self-center border-none..." type="button" aria-expanded="false" aria-controls="headlessui-popover-panel-:r16:" id="headlessui-popover-button-:r14:">TEAMSChevron Down</button>
+
+(215)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/baltimore-ravens">Ravens</a>
+
+(216)
+<a class="rounded-sm text-ls-600 hover:bg-ls-100 active:bg-white focus:bg-white">NewsSeahawks GM: 'I'd be careful' when you hear it's not a great draft for QBsSEA GM: 'I'd be careful' when you hear it's not a great draft for QBs</a>
+
+(217)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="https://nextgenstats.nfl.com/stats/">Next Gen StatsArrow Upright</a>
+
+(218)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/pro-bowl-games/">Pro Bowl Games</a>
+
+(219)
+<a class="rounded-sm text-ls-600 hover:bg-ls-100 active:bg-white focus:bg-white">Dgx Pass Away2025 draft: Grades, pro comps, in-depth scouting reports for 425 prospects2025 draft: Grades, pro comps, in-depth scouting reports for 425 prospects</a>
+
+(220)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.neworleanssaints.com/"></a>
+
+(221)
+<button class="ot-link-btn category-vendors-list-handler" aria-label="IAB Vendor Details button opens Vendor List menu">List of IAB Vendors‎</button>
+
+(222)
+<div id="headlessui-tabs-panel-:rc:" role="tabpanel" aria-labelledby="headlessui-tabs-tab-:r8:">NewsFilice mock 2.0: Jeanty goes top 5! Cowboys trade up for familiar type of playerFilice mock 2.0: Jeanty goes top 5! Cowboys trade upNewsCowboys, Saints open voluntary offseason workout programs MondayCowboys, Saints open voluntary offseason workout programs MondayNewsNFL draft prospect, former LSU wide receiver Kyren Lacy dead at 24Draft prospect, former LSU WR Kyren Lacy dead at 24NewsRoundup: Packers hosting free-agent LB; QB Sanders visiting RaidersRoundup: Pack hosting free-agent LB SimmonsNewsSeahawks GM: 'I'd be careful' when you hear it's not a great draft for QBsSEA GM: 'I'd be careful' when you hear it's not a great draft for QBsNewsQB Kenny Pickett plans to start for Browns: 'I'm not going there to hang out'Pickett aims to start in CLE: ‘Not going there to hang out’NewsBears, CB Kyler Gordon agree to terms on three-year, $40 million extensionBears, CB Gordon agree to 3-yr, $40M extensionNews9 prospect superpowers: Who has the best first step? Ball skills? Contact balance?9 prospect superpowers: Best first step? Top ball skills?NewsSaints' Carr dealing with shoulder injury; availability for 2025 in questionSaints' Carr dealing with shoulder injury; availability for '25 in questionDgx Pass Away2025 draft: Grades, pro comps, in-depth scouting reports for 425 prospects2025 draft: Grades, pro comps, in-depth scouting reports for 425 prospectsMore NewsChevron Right</div>
+
+(223)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/super-bowl/road-to-super-bowl/">Road to Super Bowl</a>
+
+(224)
+<a aria-labelledby="https://www.azcardinals.com/youth/girls-football/" class="snap-start block size-full relative group/card !-o..." href="https://www.azcardinals.com/youth/girls-football/">Cardinals Girls' Flag GOW</a>
+
+(225)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/transactions/">Transactions</a>
+
+(226)
+<button class="justify-center items-center group display-5 italic..." id="headlessui-tabs-tab-:r2:" type="button" aria-selected="false" aria-controls="headlessui-tabs-panel-:r6:">MY TEAM</button>
+
+(227)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/pro-bowl-games/">Pro Bowl Games</a>
+
+(228)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.azcardinals.com/"></a>
+
+(229)
+<div class="ot-pc-logo" aria-label="Company Logo"></div>
+
+(230)
+<button class="save-preference-btn-handler onetrust-close-btn-handler">Confirm My Choices</button>
+
+(231)
+<a class="group/link items-center body-2 lg:body-3 text-blac...">Scores</a>
+
+(232)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/jacksonville-jaguars">Jaguars</a>
+
+(233)
+<button role="link" class="relative isolate inline-flex items-center justify-..." type="button">Meet All-32</button>
+
+(234)
+<a class="size-12 rounded-full md:size-8 lg:size-14 hover:outline hover:outline-1 hover:outline-white" href="https://www.commanders.com/"></a>
+
+(235)
+<input type="checkbox" name="ot-group-id-V2STACK42" id="ot-group-id-V2STACK42" role="switch" class="category-switch-handler" aria-labelledby="ot-header-id-V2STACK42"></input>
+
+(236)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/schedules/">Schedule</a>
+
+(237)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/new-york-jets">Jets</a>
+
+(238)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/super-bowl/">Super Bowl</a>
+
+(239)
+<a aria-label="Download Android App" class="cursor-pointer rounded-sm hover:outline hover:outline-1 hover:outline-white"></a>
+
+(240)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/cleveland-browns">Browns</a>
+
+(241)
+<section aria-labelledby="headline-undefined" data-testid="section">The Eagles are Super Bowl Champs! Celebrate with official championship gear!SHOP NOWArrow Upright</section>
+
+(242)
+<a class="rounded-sm text-ls-600 hover:bg-ls-100 active:bg-white focus:bg-white">NewsBears, CB Kyler Gordon agree to terms on three-year, $40 million extensionBears, CB Gordon agree to 3-yr, $40M extension</a>
+
+(243)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/indianapolis-colts">Colts</a>
+
+(244)
+<button class="ot-link-btn category-vendors-list-handler" aria-label="IAB Vendor Details button opens Vendor List menu">List of IAB Vendors‎</button>
+
+(245)
+<a class="group/link items-center body-2 text-black dark:text-white" href="/players/">Players</a>
+
+(246)
+<input type="checkbox" name="switch" id="ot-sub-group-id-IAB2V2_2" role="switch" class="cookie-subgroup-handler" aria-label="Use limited data to select advertising"></input>
+
+(247)
+<button id="onetrust-pc-btn-handler">Show Purposes</button>
+
+(248)
+<button role="link" class="relative isolate inline-flex items-center justify-..." type="button">EXPLORE</button>
+
+(249)
+<a class="group/link items-center body-2 lg:body-3 text-blac..." href="/standings/playoff-picture">Playoff Picture</a>
+
+(250)
+<a class="body-3 text-white block border-b border-b-transpar..." href="/community/">In the Community</a>
+
+(251)
+<section aria-labelledby="headline-international-row-centerpiece" data-testid="section" id="international-row-centerpiece">CenterpieceWatch all NFL content with NFL Game Pass!</section>
+
+(252)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/las-vegas-raiders">Raiders</a>
+
+(253)
+<a class="group/link items-center self-stretch hover:bg-ls-100 dark:hover:bg-ds-200" href="/teams/washington-commanders">Commanders</a>
+
+
+            Return a JSON array with next action:
+            [{
+              "action": "click|type|wait|done",
+              "selector": "CSS selector for element",
+              "value": "Text to type (for type actions only)"
+            }]
+
+            Rules:
+            - Use valid Playwright selectors (input[id='x'], button:has-text('Submit'), a[href*='url'])
+            - Mark task as done if goal appears complete
+            - Don't repeat failed actions
+            - If typing was last action, usually follow with click/press_enter
+            - For completion: [{"action": "done", "reason": "Task complete"}]
+
+            Return only valid JSON.
+        

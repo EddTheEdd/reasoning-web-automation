@@ -1,0 +1,9 @@
+[
+  {
+    "action": "click",
+    "selector": "text=Scores",
+    "value": "",
+    "success": false,
+    "failure_reason": "Couldnt perform selector selection! If its a cookie proposal or an email list, perhaps its no longer on screen and you can continue with the main task."
+  }
+]

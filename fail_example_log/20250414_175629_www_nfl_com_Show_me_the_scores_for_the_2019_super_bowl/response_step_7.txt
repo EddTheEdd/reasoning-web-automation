@@ -1,0 +1,9 @@
+{
+  "commands": [
+    {
+      "action": "click",
+      "selector": "text=Scores",
+      "value": ""
+    }
+  ]
+}

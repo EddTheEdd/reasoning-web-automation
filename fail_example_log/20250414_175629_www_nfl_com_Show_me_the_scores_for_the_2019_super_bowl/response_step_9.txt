@@ -1,0 +1,14 @@
+{
+  "commands": [
+    {
+      "action": "click",
+      "selector": "button:has-text('Got it!')",
+      "value": ""
+    },
+    {
+      "action": "click",
+      "selector": "a[href='/super-bowl/']",
+      "value": ""
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "commands": [
+    {
+      "action": "click",
+      "selector": "a[href='/schedules/subway']"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+[
+  {
+    "action": "click",
+    "selector": "a[href='/super-bowl/']:has-text('Super Bowl')",
+    "value": "",
+    "success": false,
+    "failure_reason": "Couldnt perform selector selection! If its a cookie proposal or an email list, perhaps its no longer on screen and you can continue with the main task."
+  }
+]

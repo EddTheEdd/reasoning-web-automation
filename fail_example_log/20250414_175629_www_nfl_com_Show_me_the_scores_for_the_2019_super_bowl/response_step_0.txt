@@ -1,0 +1,9 @@
+{
+  "commands": [
+    {
+      "action": "click",
+      "selector": "a[href='/super-bowl/']",
+      "value": ""
+    }
+  ]
+}

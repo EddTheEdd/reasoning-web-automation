@@ -1,0 +1,9 @@
+{
+  "commands": [
+    {
+      "action": "click",
+      "selector": "a:has-text('Scores')",
+      "value": ""
+    }
+  ]
+}

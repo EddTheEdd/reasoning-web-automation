@@ -1,0 +1,12 @@
+[
+  {
+    "action": "click",
+    "selector": "a[href='https://www.mbta.com/schedules/Red/alerts']",
+    "success": false,
+    "failure_reason": "Couldnt perform selector selection! If its a cookie proposal or an email list, perhaps its no longer on screen and you can continue with the main task."
+  },
+  {
+    "action": "done",
+    "reason": "Task complete"
+  }
+]

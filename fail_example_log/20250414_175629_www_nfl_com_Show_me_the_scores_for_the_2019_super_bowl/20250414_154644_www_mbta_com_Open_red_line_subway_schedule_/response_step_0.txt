@@ -1,0 +1,12 @@
+{
+  "commands": [
+    {
+      "action": "click",
+      "selector": "a[href='https://www.mbta.com/schedules/Red/alerts']"
+    },
+    {
+      "action": "done",
+      "reason": "Task complete"
+    }
+  ]
+}

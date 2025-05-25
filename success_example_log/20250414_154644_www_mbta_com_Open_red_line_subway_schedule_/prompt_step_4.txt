@@ -1,0 +1,461 @@
+
+            You're a web automation assistant. Given:
+
+            TASK: Open red line subway schedule.
+            URL: https://www.mbta.com/
+            ACTIONS: [
+  {
+    "action": "click",
+    "selector": "a[href='https://www.mbta.com/schedules/Red/alerts']",
+    "success": false,
+    "failure_reason": "Couldnt perform selector selection! If its a cookie proposal or an email list, perhaps its no longer on screen and you can continue with the main task."
+  },
+  {
+    "action": "click",
+    "selector": "a:has-text('Red Line')",
+    "success": false,
+    "failure_reason": "Couldnt perform selector selection! If its a cookie proposal or an email list, perhaps its no longer on screen and you can continue with the main task."
+  },
+  {
+    "action": "click",
+    "selector": "a[href='/schedules/subway']",
+    "success": false,
+    "failure_reason": "Couldnt perform selector selection! If its a cookie proposal or an email list, perhaps its no longer on screen and you can continue with the main task."
+  },
+  {
+    "action": "click",
+    "selector": "a[href='/schedules']",
+    "success": false,
+    "failure_reason": "Couldnt perform selector selection! If its a cookie proposal or an email list, perhaps its no longer on screen and you can continue with the main task."
+  }
+]
+            HTML: 
+(1)
+<a href="https://www.mbta.com/schedules/57/alerts" class="u-small-caps">57</a>
+
+(2)
+<a class="c-news-entry c-news-entry--small c-news-entry--ferry m-homepage__news-item">FerryMBTA Opens Contest for Students K-8 to Help Name Three FerriesApr10</a>
+
+(3)
+<input type="text" name="gtrans" id="goog-gt-votingInputTrgText"></input>
+
+(4)
+<a class="u-linked-card__primary-link">Red Line Closure Travel Options</a>
+
+(5)
+<div class="c-search-bar__-dataset-popular"></div>
+
+(6)
+<a href="https://www.mbta.com/schedules/104/alerts" class="u-small-caps">104</a>
+
+(7)
+<a class="m-menu__link" href="/schedules/commuter-rail">Commuter Rail</a>
+
+(8)
+<a href="https://www.mbta.com/schedules/9/alerts" class="u-small-caps">9</a>
+
+(9)
+<input type="text" id="to" class="c-form__input c-trip-plan-widget__location-input js-form__input c-search-bar__-input" placeholder="Enter a location" name="plan[to]" value="" role="combobox" aria-expanded="false" aria-owns="c-search-bar__autocomplete-listbox-0"></input>
+
+(10)
+<select class="custom-language-selector" aria-label="Page language">Arabic,Chinese (Simplified),Chinese (Traditional),English,French,Haitian Creole,Italian,Khmer,Korean,Polish,Portuguese,Russian,Spanish,Vietnamese</select>
+
+(11)
+<label for="to" class="c-search-bar__header c-trip-plan-widget__label--to" id="trip-plan__label--to">To(Required)</label>
+
+(12)
+<div class="m-menu-desktop__section transit">Modes of TransitSubwayBusCommuter RailFerryParatransit (The RIDE)All Schedules & MapsPlan Your JourneyTrip PlannerService AlertsSign Up for Service AlertsParkingBikesUser GuidesHolidaysAccessibilityFind a LocationFind Nearby TransitMBTA StationsDestinationsMaps</div>
+
+(13)
+<div class="c-search-bar__autocomplete"></div>
+
+(14)
+<div id="trip-plan__search--to__results" class="c-search-bar__results"></div>
+
+(15)
+<div class="c-accordion-ui__content" id="Modes-of-Transit-section" role="region" aria-labelledby="Modes-of-Transit-title">SubwayBusCommuter RailFerryParatransit (The RIDE)All Schedules & Maps</div>
+
+(16)
+<div role="tabpanel" id="alerts-content" class="m-tabbed-nav__content-item">Routes With High Priority AlertsSubwayRed Lineblue lineBus91034394155576499104105111112114116119501504trainCommuter RailFitchburg LineFramingham/Worcester LineFranklin/Foxboro LineProvidence/Stoughton LineFerryCharlestown FerryaccessibilityStation AccessibilityElevator ClosuresPrudentialEscalator ClosuresAndrewAquariumAssemblyBack BayBowdoinCourthouseDavisHarvardNorth StationOak GroveQuincy CenterRugglesSouth StationStateAccess IssuesThere are no
+access issues
+                at this timeSign up for alert notificationsSee all service alerts</div>
+
+(17)
+<div id="trip-plan__search--to" class="c-search-bar">Bwww.mbta.com needs permission to use your location.
+      Please update your browser's settings or refresh the page and try again.</div>
+
+(18)
+<a href="https://www.mbta.com/schedules/CR-Franklin/alerts" class="u-small-caps">Franklin/Foxboro Line</a>
+
+(19)
+<div class="m-menu-desktop__submenu-section" aria-label="Fares Info">Fares OverviewReduced FaresTransfersFare Transformation</div>
+
+(20)
+<a class="m-homepage__shortcut" href="/schedules/commuter-rail">Commuter RailCommuter Rail</a>
+
+(21)
+<div class="c-search-bar__-dataset-usemylocation"></div>
+
+(22)
+<div id="trip-plan__search--from__results" class="c-search-bar__results"></div>
+
+(23)
+<div class="c-search-bar__-dataset-locations"></div>
+
+(24)
+<div class="m-menu-desktop__section fares">Fares InfoFares OverviewReduced FaresTransfersFare TransformationFares by ModeSubway FaresBus FaresCommuter Rail FaresFerry FaresPay Your FareCharlie Service CenterSign up for Auto-payOrder Monthly PassesGet a CharlieCardRetail Sales LocationsMost popular faresSubway One-Way$2.40Local Bus One-Way$1.70Monthly LinkPass$90.00Commuter Rail One-WayZones 1A - 10$2.40 -$13.25</div>
+
+(25)
+<a href="https://www.mbta.com/schedules/10/alerts" class="u-small-caps">10</a>
+
+(26)
+<div class="m-menu-desktop__section-feature">Most popular faresSubway One-Way$2.40Local Bus One-Way$1.70Monthly LinkPass$90.00Commuter Rail One-WayZones 1A - 10$2.40 -$13.25</div>
+
+(27)
+<link type="image/png"></link>
+
+(28)
+<a href="https://www.mbta.com/schedules/99/alerts" class="u-small-caps">99</a>
+
+(29)
+<div class="m-menu-desktop__submenu-section" aria-label="Find a Location">Find Nearby TransitMBTA StationsDestinationsMaps</div>
+
+(30)
+<i id="trip-plan__loading-indicator--from" class="fa fa-spin c-search-bar__loading-indicator"></i>
+
+(31)
+<div class="c-accordion-ui__content" id="Fares-by-Mode-section" role="region" aria-labelledby="Fares-by-Mode-title">Subway FaresBus FaresCommuter Rail FaresFerry Fares</div>
+
+(32)
+<a href="https://www.mbta.com/schedules/105/alerts" class="u-small-caps">105</a>
+
+(33)
+<a class="u-linked-card__primary-link" href="/fares/subway-fares">SubwayOne-Way</a>
+
+(34)
+<label class="aa-Label" aria-label="Submit" for="autocomplete-0-input" id="autocomplete-0-label"></label>
+
+(35)
+<a class="u-linked-card__primary-link">MBTA Go</a>
+
+(36)
+<input type="text" name="sl" id="goog-gt-votingInputSrcLang"></input>
+
+(37)
+<a href="/schedules/Red/alerts" class="items-center hover:bg-brand-primary-lightest curso...">RLalertService Change</a>
+
+(38)
+<nav aria-labelledby="section-heading-Fares" class="m-menu__section">FaresFares InfoFares OverviewReduced FaresTransfersFare TransformationFares OverviewReduced FaresTransfersFare TransformationFares by ModeSubway FaresBus FaresCommuter Rail FaresFerry FaresSubway FaresBus FaresCommuter Rail FaresFerry FaresPay Your FareCharlie Service CenterSign up for Auto-payOrder Monthly PassesGet a CharlieCardRetail Sales LocationsCharlie Service CenterSign up for Auto-payOrder Monthly PassesGet a CharlieCardRetail Sales LocationsMost popular faresSubway One-Way$2.40Local Bus One-Way$1.70Monthly LinkPass$90.00Commuter Rail One-WayZones 1A - 10$2.40 -$13.25</nav>
+
+(39)
+<div class="m-menu--desktop__menu">Fares InfoFares OverviewReduced FaresTransfersFare TransformationFares by ModeSubway FaresBus FaresCommuter Rail FaresFerry FaresPay Your FareCharlie Service CenterSign up for Auto-payOrder Monthly PassesGet a CharlieCardRetail Sales LocationsMost popular faresSubway One-Way$2.40Local Bus One-Way$1.70Monthly LinkPass$90.00Commuter Rail One-WayZones 1A - 10$2.40 -$13.25</div>
+
+(40)
+<div id="trip-plan__search--to__autocomplete" class="c-search-bar__results"></div>
+
+(41)
+<div class="m-menu-desktop__submenu-section" aria-label="Modes of Transit">SubwayBusCommuter RailFerryParatransit (The RIDE)All Schedules & Maps</div>
+
+(42)
+<a href="https://www.mbta.com/schedules/116/alerts" class="u-small-caps">116</a>
+
+(43)
+<nav aria-labelledby="section-heading-Transit" class="m-menu__section">TransitModes of TransitSubwayBusCommuter RailFerryParatransit (The RIDE)All Schedules & MapsSubwayBusCommuter RailFerryParatransit (The RIDE)All Schedules & MapsPlan Your JourneyTrip PlannerService AlertsSign Up for Service AlertsParkingBikesUser GuidesHolidaysAccessibilityTrip PlannerService AlertsSign Up for Service AlertsParkingBikesUser GuidesHolidaysAccessibilityFind a LocationFind Nearby TransitMBTA StationsDestinationsMapsFind Nearby TransitMBTA StationsDestinationsMaps</nav>
+
+(44)
+<a class="m-menu__link" href="/schedules/ferry">Ferry</a>
+
+(45)
+<span class="c-search-bar__-dropdown-menu" role="listbox" id="c-search-bar__autocomplete-listbox-0"></span>
+
+(46)
+<a href="https://www.mbta.com/schedules/Boat-F4/alerts" class="u-small-caps">Charlestown Ferry</a>
+
+(47)
+<a href="https://www.mbta.com/schedules/Blue/alerts" class="u-small-caps">blue line</a>
+
+(48)
+<input class="aa-Input" aria-labelledby="autocomplete-0-label" id="autocomplete-0-input" placeholder="Search for routes, info, and more" type="search"></input>
+
+(49)
+<div class="m-menu--desktop__menu">Modes of TransitSubwayBusCommuter RailFerryParatransit (The RIDE)All Schedules & MapsPlan Your JourneyTrip PlannerService AlertsSign Up for Service AlertsParkingBikesUser GuidesHolidaysAccessibilityFind a LocationFind Nearby TransitMBTA StationsDestinationsMaps</div>
+
+(50)
+<label for="from" class="c-search-bar__header" id="trip-plan__label--from">From(Required)</label>
+
+(51)
+<input type="text" id="from" class="c-form__input c-trip-plan-widget__location-input js-form__input c-search-bar__-input" placeholder="Enter a location" name="plan[from]" value="" role="combobox" aria-expanded="false" aria-owns="c-search-bar__autocomplete-listbox-1"></input>
+
+(52)
+<a class="guide" href="/guides/subway-guide">Subway Beginner's Guide</a>
+
+(53)
+<a href="https://www.mbta.com/schedules/504/alerts" class="u-small-caps">504</a>
+
+(54)
+<a href="https://www.mbta.com/schedules/501/alerts" class="u-small-caps">501</a>
+
+(55)
+<a class="m-menu__link" href="/engineering/design-standards-and-guidelines">Engineering Design Standards</a>
+
+(56)
+<div class="c-accordion-ui__content" id="Pay-Your-Fare-section" role="region" aria-labelledby="Pay-Your-Fare-title">Charlie Service CenterSign up for Auto-payOrder Monthly PassesGet a CharlieCardRetail Sales Locations</div>
+
+(57)
+<a class="nav-link m-tabbed-nav__item active" aria-controls="schedules-content" aria-selected="true">mapRoutes</a>
+
+(58)
+<div role="tabpanel" id="trip-planner-content" class="m-tabbed-nav__content-item">Plan a tripWhen autocomplete results are available, use up and down arrows to review and enter to select.
+  Touch device users, explore by touch or with swipe gestures.From(Required)Awww.mbta.com needs permission to use your location.
+      Please update your browser's settings or refresh the page and try again.To(Required)Bwww.mbta.com needs permission to use your location.
+      Please update your browser's settings or refresh the page and try again.There was a problem performing your search; please try again in a few minutes.Get trip suggestions</div>
+
+(59)
+<a class="m-menu__link" href="/fares/reduced">Reduced Fares</a>
+
+(60)
+<div class="c-search-bar__autocomplete-results"></div>
+
+(61)
+<a class="m-menu__link" href="/schedules/subway">Subway</a>
+
+(62)
+<div role="tabpanel" id="schedules-content" class="m-tabbed-nav__content-item active">Commuter RailCommuter RailsubwaySubwayLinesBusBusRoutesFerryFerryRoutesthe rideThe RIDEsubwaySubway StatusRLalertService ChangeOLNormal ServiceGLNormal ServiceBLcancelledStation Closure</div>
+
+(63)
+<button id="trip-plan__submit" type="submit" class="btn-primary hidden-print c-trip-plan-widget__submit">Get trip suggestions</button>
+
+(64)
+<a href="https://www.mbta.com/schedules/Red/alerts" class="u-small-caps">Red Line</a>
+
+(65)
+<label class="aa-Label" aria-label="Submit" for="autocomplete-1-input" id="autocomplete-1-label"></label>
+
+(66)
+<nav id="navmenu-desktop" class="m-menu--desktop" aria-label="Main navigation">TransitModes of TransitSubwayBusCommuter RailFerryParatransit (The RIDE)All Schedules & MapsPlan Your JourneyTrip PlannerService AlertsSign Up for Service AlertsParkingBikesUser GuidesHolidaysAccessibilityFind a LocationFind Nearby TransitMBTA StationsDestinationsMapsFaresFares InfoFares OverviewReduced FaresTransfersFare TransformationFares by ModeSubway FaresBus FaresCommuter Rail FaresFerry FaresPay Your FareCharlie Service CenterSign up for Auto-payOrder Monthly PassesGet a CharlieCardRetail Sales LocationsMost popular faresSubway One-Way$2.40Local Bus One-Way$1.70Monthly LinkPass$90.00Commuter Rail One-WayZones 1A - 10$2.40 -$13.25ContactCustomer SupportSend Us FeedbackView All Contact NumbersRequest Public RecordsLost & FoundLanguage ServicesTransit PoliceMBTA Transit PoliceSee Something, Say SomethingEmergency Contacts24 hours, 7 days a weekTransit Police:617-222-1212TTY:617-222-1200Information & SupportMonday thru Friday: 6:30 AM - 8 PMMain:617-222-3200711 for TTY callers;  VRS for ASL callersEmergency Contacts24 hours, 7 days a weekTransit Police:617-222-1212TTY:617-222-1200Report a Railroad Crossing Gate IssueTo report a problem or emergency with a railroad crossing, call800-522-8236AboutGet to Know UsOverviewLeadershipHistoryFinancialsPublic MeetingsPress ReleasesMBTA Gift ShopPolicies & Civil RightsSafetyQuality, Compliance & OversightWork with UsCareersInstitutional SalesBusiness OpportunitiesInnovation ProposalsEngineering Design StandardsOur WorkSustainabilityCapital TransformationCommuter Rail Positive Train ControlBetter Bus ProjectAll MBTA Improvement ProjectsArabic,Chinese (Simplified),Chinese (Traditional),English,French,Haitian Creole,Italian,Khmer,Korean,Polish,Portuguese,Russian,Spanish,Vietnamese</nav>
+
+(67)
+<a href="https://www.mbta.com/alerts/subway">Subway</a>
+
+(68)
+<a class="m-menu__link" href="/schedules/bus">Bus</a>
+
+(69)
+<a class="m-homepage__shortcut" href="/schedules/ferry">FerryFerryRoutes</a>
+
+(70)
+<button id="goog-gt-thumbDownButton" type="button"></button>
+
+(71)
+<div aria-label="Blue Line" class="bg-blue-line group-hover/row:ring-brand-primary-li...">BL</div>
+
+(72)
+<span href="/schedules" class="m-tabbed-nav__icon-text">Routes</span>
+
+(73)
+<a href="https://www.mbta.com/schedules/39/alerts" class="u-small-caps">39</a>
+
+(74)
+<div class="m-menu__content">Main MenuTransitModes of TransitSubwayBusCommuter RailFerryParatransit (The RIDE)All Schedules & MapsSubwayBusCommuter RailFerryParatransit (The RIDE)All Schedules & MapsPlan Your JourneyTrip PlannerService AlertsSign Up for Service AlertsParkingBikesUser GuidesHolidaysAccessibilityTrip PlannerService AlertsSign Up for Service AlertsParkingBikesUser GuidesHolidaysAccessibilityFind a LocationFind Nearby TransitMBTA StationsDestinationsMapsFind Nearby TransitMBTA StationsDestinationsMapsFaresFares InfoFares OverviewReduced FaresTransfersFare TransformationFares OverviewReduced FaresTransfersFare TransformationFares by ModeSubway FaresBus FaresCommuter Rail FaresFerry FaresSubway FaresBus FaresCommuter Rail FaresFerry FaresPay Your FareCharlie Service CenterSign up for Auto-payOrder Monthly PassesGet a CharlieCardRetail Sales LocationsCharlie Service CenterSign up for Auto-payOrder Monthly PassesGet a CharlieCardRetail Sales LocationsMost popular faresSubway One-Way$2.40Local Bus One-Way$1.70Monthly LinkPass$90.00Commuter Rail One-WayZones 1A - 10$2.40 -$13.25ContactCustomer SupportSend Us FeedbackView All Contact NumbersRequest Public RecordsLost & FoundLanguage ServicesSend Us FeedbackView All Contact NumbersRequest Public RecordsLost & FoundLanguage ServicesTransit PoliceMBTA Transit PoliceSee Something, Say SomethingMBTA Transit PoliceSee Something, Say SomethingInformation & SupportMonday thru Friday: 6:30 AM - 8 PMMain:617-222-3200711 for TTY callers;  VRS for ASL callersEmergency Contacts24 hours, 7 days a weekTransit Police:617-222-1212TTY:617-222-1200Report a Railroad Crossing Gate IssueTo report a problem or emergency with a railroad crossing, call800-522-8236AboutGet to Know UsOverviewLeadershipHistoryFinancialsPublic MeetingsPress ReleasesMBTA Gift ShopPolicies & Civil RightsSafetyQuality, Compliance & OversightOverviewLeadershipHistoryFinancialsPublic MeetingsPress ReleasesMBTA Gift ShopPolicies & Civil RightsSafetyQuality, Compliance & OversightWork with UsCareersInstitutional SalesBusiness OpportunitiesInnovation ProposalsEngineering Design StandardsCareersInstitutional SalesBusiness OpportunitiesInnovation ProposalsEngineering Design StandardsOur WorkSustainabilityCapital TransformationCommuter Rail Positive Train ControlBetter Bus ProjectAll MBTA Improvement ProjectsSustainabilityCapital TransformationCommuter Rail Positive Train ControlBetter Bus ProjectAll MBTA Improvement ProjectsArabic,Chinese (Simplified),Chinese (Traditional),English,French,Haitian Creole,Italian,Khmer,Korean,Polish,Portuguese,Russian,Spanish,Vietnamese</div>
+
+(75)
+<a href="https://www.mbta.com/schedules/119/alerts" class="u-small-caps">119</a>
+
+(76)
+<a class="c-news-entry c-news-entry--small c-news-entry--commuter-rail m-homepage__news-item">Commuter RailMBTA Walpole Station to Open with Accessible Platforms on March 31Mar28</a>
+
+(77)
+<div class="m-menu-desktop__submenu-section" aria-label="Fares by Mode">Subway FaresBus FaresCommuter Rail FaresFerry Fares</div>
+
+(78)
+<a href="https://www.facebook.com/TheMBTA/" aria-label="MBTA facebook"></a>
+
+(79)
+<div class="m-menu__feature">Most popular faresSubway One-Way$2.40Local Bus One-Way$1.70Monthly LinkPass$90.00Commuter Rail One-WayZones 1A - 10$2.40 -$13.25</div>
+
+(80)
+<a class="m-menu__link" href="/fares/subway-fares">Subway Fares</a>
+
+(81)
+<a class="m-homepage__shortcut" href="/schedules/bus">BusBusRoutes</a>
+
+(82)
+<button class="header-search__toggle" type="button" aria-expanded="false" aria-controls="search-header-mobile__container" aria-label="Search MBTA.com"></button>
+
+(83)
+<a href="/schedules/Blue/alerts" class="items-center hover:bg-brand-primary-lightest curso...">BLcancelledStation Closure</a>
+
+(84)
+<a class="c-news-entry c-news-entry--small c-news-entry--bus m-homepage__news-item">BusMBTA Announces Spring Schedules, Increases Subway and Bus Service FrequencyMar27</a>
+
+(85)
+<a href="https://www.mbta.com/schedules/111/alerts" class="u-small-caps">111</a>
+
+(86)
+<div class="c-accordion-ui__content" id="Fares-Info-section" role="region" aria-labelledby="Fares-Info-title">Fares OverviewReduced FaresTransfersFare Transformation</div>
+
+(87)
+<a class="m-menu__link" href="/transit-near-me">Find Nearby Transit</a>
+
+(88)
+<a href="https://translate.google.com">Tulkotājs</a>
+
+(89)
+<div id="trip-plan__search--from__autocomplete" class="c-search-bar__results"></div>
+
+(90)
+<div class="c-search-bar__autocomplete"></div>
+
+(91)
+<input type="text" name="query" id="goog-gt-votingInputSrcText"></input>
+
+(92)
+<a>DownloadMBTA Gototrack your trip→</a>
+
+(93)
+<button class="aa-SubmitButton" type="submit" title="Submit"></button>
+
+(94)
+<span class="c-search-bar__-dropdown-menu" role="listbox" id="c-search-bar__autocomplete-listbox-1"></span>
+
+(95)
+<a href="https://www.mbta.com/schedules/41/alerts" class="u-small-caps">41</a>
+
+(96)
+<nav class="m-menu--mobile" id="navmenu" aria-label="Navigation Menu">Main MenuTransitModes of TransitSubwayBusCommuter RailFerryParatransit (The RIDE)All Schedules & MapsSubwayBusCommuter RailFerryParatransit (The RIDE)All Schedules & MapsPlan Your JourneyTrip PlannerService AlertsSign Up for Service AlertsParkingBikesUser GuidesHolidaysAccessibilityTrip PlannerService AlertsSign Up for Service AlertsParkingBikesUser GuidesHolidaysAccessibilityFind a LocationFind Nearby TransitMBTA StationsDestinationsMapsFind Nearby TransitMBTA StationsDestinationsMapsFaresFares InfoFares OverviewReduced FaresTransfersFare TransformationFares OverviewReduced FaresTransfersFare TransformationFares by ModeSubway FaresBus FaresCommuter Rail FaresFerry FaresSubway FaresBus FaresCommuter Rail FaresFerry FaresPay Your FareCharlie Service CenterSign up for Auto-payOrder Monthly PassesGet a CharlieCardRetail Sales LocationsCharlie Service CenterSign up for Auto-payOrder Monthly PassesGet a CharlieCardRetail Sales LocationsMost popular faresSubway One-Way$2.40Local Bus One-Way$1.70Monthly LinkPass$90.00Commuter Rail One-WayZones 1A - 10$2.40 -$13.25ContactCustomer SupportSend Us FeedbackView All Contact NumbersRequest Public RecordsLost & FoundLanguage ServicesSend Us FeedbackView All Contact NumbersRequest Public RecordsLost & FoundLanguage ServicesTransit PoliceMBTA Transit PoliceSee Something, Say SomethingMBTA Transit PoliceSee Something, Say SomethingInformation & SupportMonday thru Friday: 6:30 AM - 8 PMMain:617-222-3200711 for TTY callers;  VRS for ASL callersEmergency Contacts24 hours, 7 days a weekTransit Police:617-222-1212TTY:617-222-1200Report a Railroad Crossing Gate IssueTo report a problem or emergency with a railroad crossing, call800-522-8236AboutGet to Know UsOverviewLeadershipHistoryFinancialsPublic MeetingsPress ReleasesMBTA Gift ShopPolicies & Civil RightsSafetyQuality, Compliance & OversightOverviewLeadershipHistoryFinancialsPublic MeetingsPress ReleasesMBTA Gift ShopPolicies & Civil RightsSafetyQuality, Compliance & OversightWork with UsCareersInstitutional SalesBusiness OpportunitiesInnovation ProposalsEngineering Design StandardsCareersInstitutional SalesBusiness OpportunitiesInnovation ProposalsEngineering Design StandardsOur WorkSustainabilityCapital TransformationCommuter Rail Positive Train ControlBetter Bus ProjectAll MBTA Improvement ProjectsSustainabilityCapital TransformationCommuter Rail Positive Train ControlBetter Bus ProjectAll MBTA Improvement ProjectsArabic,Chinese (Simplified),Chinese (Traditional),English,French,Haitian Creole,Italian,Khmer,Korean,Polish,Portuguese,Russian,Spanish,Vietnamese</nav>
+
+(97)
+<a href="https://www.mbta.com/schedules/34/alerts" class="u-small-caps">34</a>
+
+(98)
+<a href="/schedules/Orange/line" class="items-center hover:bg-brand-primary-lightest curso...">OLNormal Service</a>
+
+(99)
+<link href="//www.google-analytics.com"></link>
+
+(100)
+<span class="c-search-bar__autocomplete"></span>
+
+(101)
+<div class="m-menu__section-heading">Find a Location</div>
+
+(102)
+<a href="https://www.mbta.com/schedules/64/alerts" class="u-small-caps">64</a>
+
+(103)
+<div class="m-menu__search"></div>
+
+(104)
+<div id="trip-plan__search--from" class="c-search-bar">Awww.mbta.com needs permission to use your location.
+      Please update your browser's settings or refresh the page and try again.</div>
+
+(105)
+<a class="c-fare-name-link" href="/fares/subway-fares">SubwayOne-Way</a>
+
+(106)
+<a class="navbar-logo" href="/">MBTA Home PageMassachusetts BayTransportationAuthority</a>
+
+(107)
+<input type="text" name="tl" id="goog-gt-votingInputTrgLang"></input>
+
+(108)
+<div class="c-search-bar__-dataset-stops"></div>
+
+(109)
+<a href="https://www.mbta.com/schedules/55/alerts" class="u-small-caps">55</a>
+
+(110)
+<input type="text" name="vote" id="goog-gt-votingInputVote"></input>
+
+(111)
+<a class="m-footer__link" href="/engineering/design-standards-and-guidelines">Engineering Design Standards</a>
+
+(112)
+<a class="m-menu__link" href="/fares/charliecard-store">Charlie Service Center</a>
+
+(113)
+<a href="https://www.mbta.com/schedules/CR-Providence/alerts" class="u-small-caps">Providence/Stoughton Line</a>
+
+(114)
+<a href="https://www.mbta.com/schedules/CR-Worcester/alerts" class="u-small-caps">Framingham/Worcester Line</a>
+
+(115)
+<input class="aa-Input" aria-labelledby="autocomplete-1-label" id="autocomplete-1-input" placeholder="Search for routes, info, and more" type="search"></input>
+
+(116)
+<a href="https://www.mbta.com/schedules/114/alerts" class="u-small-caps">114</a>
+
+(117)
+<a href="https://www.mbta.com/schedules/CR-Fitchburg/alerts" class="u-small-caps">Fitchburg Line</a>
+
+(118)
+<a class="m-menu__link" href="/schedules">All Schedules & Maps</a>
+
+(119)
+<a href="https://www.mbta.com/schedules/112/alerts" class="u-small-caps">112</a>
+
+(120)
+<svg aria-label="Service alert or delay" class="icon icon-alert icon-small-inline" title=""></svg>
+
+(121)
+<div aria-label="Green Line" class="bg-green-line group-hover/row:ring-brand-primary-l...">GL</div>
+
+(122)
+<a href="https://www.mbta.com/stops/place-qnctr">Quincy Center</a>
+
+(123)
+<i id="trip-plan__loading-indicator--to" class="fa fa-spin c-search-bar__loading-indicator"></i>
+
+(124)
+<div class="c-accordion-ui__content" id="Find-a-Location-section" role="region" aria-labelledby="Find-a-Location-title">Find Nearby TransitMBTA StationsDestinationsMaps</div>
+
+(125)
+<a href="/schedules/Green/line" class="items-center hover:bg-brand-primary-lightest curso...">GLNormal Service</a>
+
+(126)
+<a class="m-homepage__shortcut" href="/schedules/subway">subwaySubwayLines</a>
+
+(127)
+<div aria-label="Red Line" class="bg-red-line group-hover/row:ring-brand-primary-lig...">RL</div>
+
+(128)
+<select class="goog-te-combo">Atlasīt valoduarābufrančuhaitiešuitāļukhmerukorejiešukrievuķīniešu (tradicionālā)ķīniešu (vienkāršotā)poļuportugāļu valoda (Brazīlija)spāņuvjetnamiešu</select>
+
+(129)
+<a href="/alerts/subway" class="items-center font-heading font-bold text-gray-dark no-underline">subwaySubway Status</a>
+
+(130)
+<nav class="m-footer__group" aria-labelledby="footer-know-us">Get to Know UsLeadershipHistoryFinancialsPublic MeetingsPress ReleasesPolicies & Civil RightsSafetyPerformance</nav>
+
+(131)
+<div aria-label="Orange Line" class="bg-orange-line group-hover/row:ring-brand-primary-...">OL</div>
+
+(132)
+<span class="c-search-bar__autocomplete"></span>
+
+(133)
+<div class="m-menu-desktop__submenu-section" aria-label="Pay Your Fare">Charlie Service CenterSign up for Auto-payOrder Monthly PassesGet a CharlieCardRetail Sales Locations</div>
+
+(134)
+<button id="goog-gt-thumbUpButton" type="button"></button>
+
+(135)
+<button class="c-accordion-ui__trigger c-accordion-ui__title font-headings" id="Find-a-Location-title" aria-expanded="false" aria-controls="Find-a-Location-section">Find a Location</button>
+
+
+            Return a JSON array with next action:
+            [{
+              "action": "click|type|wait|done",
+              "selector": "CSS selector for element",
+              "value": "Text to type (for type actions only)"
+            }]
+
+            Rules:
+            - Use valid Playwright selectors (input[id='x'], button:has-text('Submit'), a[href*='url'])
+            - Mark task as done if goal appears complete
+            - Don't repeat failed actions
+            - If typing was last action, usually follow with click/press_enter
+            - For completion: [{"action": "done", "reason": "Task complete"}]
+
+            Return only valid JSON.
+        

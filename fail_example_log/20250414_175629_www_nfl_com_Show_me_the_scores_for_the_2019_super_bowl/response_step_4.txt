@@ -1,0 +1,9 @@
+{
+  "commands": [
+    {
+      "action": "click",
+      "selector": "button[aria-label='dismiss cookie message']",
+      "value": ""
+    }
+  ]
+}
