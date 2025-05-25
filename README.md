@@ -1,4 +1,4 @@
-# O3-Mini Web Automation: Reasoning Model-Driven Browser Automation
+# Reasoning Large Language Model Powered Web Automation
 
 This repository contains the implementation and example experimental results for the bachelor thesis "Application Possibilities of Large Language Models in Internet Browsing and Query Execution Automation" (Latvian University, 2025).
 
